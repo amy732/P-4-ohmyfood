@@ -1,0 +1,238 @@
+header {
+    height: 63px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+
+    img {
+        width: 200px;
+        height: 36px;
+    }
+}
+.home-main {
+    .position {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        background: rgba(234, 234, 234, 1);
+        text-align: center;
+        padding: 0.5rem;
+    }
+    h2 {
+        padding: 32px 0;
+        margin: 0;
+    }
+
+    .headLine {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: var(--Background, #f6f6f6);
+        padding: 32px;
+        h2 {
+            text-align: center;
+        }
+        
+    }
+    .list {
+        padding: 0 48px;
+        ol {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 32px;
+            align-items: flex-start;
+            padding: 0;
+            @media(min-width: 769px){
+                flex-direction: row;
+            }
+        }
+        li {
+            font-family: Roboto;
+            font-weight: 500;
+            list-style-type: none;
+            background: #f6f6f6;
+            padding: 20px 0 20px 32px;
+            width: 90%;
+            border-radius: 20px;
+            box-shadow: 0px 4px 15px 0px #00000026;
+            margin-left: 19px;
+            position: relative;
+
+            &:hover {
+                transform: scale(1.02);
+            }
+            &:hover .fa-solid {
+                color: #9356dc;
+            }
+            span {
+                color: white;
+                width: 32px;
+                height: 32px;
+                background: #9356dc;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                position: absolute;
+                left: -16px;
+                margin: 0;
+                transform: translateY(-23%);
+            }
+            .fa-solid {
+                margin-right: 16px;
+                color: #7e7e7e;
+                width: 13.02px;
+            }
+        }
+    }
+    .menus {
+        padding: 0 48px;
+
+        h2 {
+            //styleName: Section Title;
+            font-family: Roboto;
+            padding-bottom: 32px;
+        }
+    }
+    .menus_cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        @media(min-width: 769px){
+            display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+
+
+        .card {
+            width: 100%;
+            border-radius: 15px;
+            background-color: #ffffff;
+            box-shadow: 2px 2px 2px lightgrey;
+            position: relative;
+            
+            img {
+                height: 231px;
+                width: 100%;
+                border-radius: 15px 15px 0 0;
+                object-fit: cover;
+            }
+            .new {
+                box-shadow: 0px 2px 4px 0px #00000026;
+                background: #99e2d0;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 500;
+                color: #008766;
+                position: absolute;
+                width: 80px;
+                height: 29px;
+                border-radius: 2px;
+                right: 16px;
+                top: 16px;
+                display: grid;
+                place-items: center;
+            }
+
+            .description {
+                line-height: 21px;
+                padding: 0 16px;
+                border-bottom-left-radius: 20px 20px;
+                border-bottom-right-radius: 20px 20px;
+                position: relative;
+                h3 {
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 21px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+
+                .fa-heart {
+                    font-size: 32px;
+                    position: absolute;
+                    right: 16px;
+                    top: 50%;
+                    transform: translateY(-50);
+                }
+                .fas {
+                    color: transparent;
+                    background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    opacity: 0;
+                }
+                &:hover .fas {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .commander-button{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 16px;
+   
+    button {
+        //styleName: Button;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 186px;
+        height: 50px;
+        background: linear-gradient(to top, #9356dc -11.44%, #ff79da 123.93%);
+        border-radius: 25px;
+        box-shadow: 2px 1px 10px -3px #00000040;
+        color: #ffffff;
+        &:hover {
+            transform: scale(1.06);
+            opacity: 60;
+        }
+    }
+}
+}
+
+footer {
+    background-color: #353535;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    color: #ffffff;
+    margin-top: 50px;
+    h2 {
+        font-family: Shrikhand;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 15px 0;
+    }
+    p {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 10px;
+        margin: 0;
+
+        i {
+            margin-right: 16px;
+        }
+    }
+}
