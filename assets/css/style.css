@@ -262,6 +262,10 @@ body footer p {
 body footer p i {
   margin-right: 16px;
 }
+body footer p a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 * {
   box-sizing: border-box;
