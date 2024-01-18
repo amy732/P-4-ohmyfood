@@ -223,14 +223,15 @@ body .home-main .commander-button button {
   text-align: center;
   width: 186px;
   height: 50px;
-  background: linear-gradient(to top, #9356dc -11.44%, #ff79da 123.93%);
+  background-image: linear-gradient(to top, #9356dc -11.44%, #ff79da 123.93%);
   border-radius: 25px;
-  box-shadow: 2px 1px 10px -3px rgba(0, 0, 0, 0.2509803922);
+  border: none;
+  box-shadow: 0.25px 0.25px 10px rgb(255, 255, 255);
   color: #ffffff;
 }
 body .home-main .commander-button button:hover {
   transform: scale(1.06);
-  opacity: 60;
+  opacity: 0.8;
 }
 body footer {
   background-color: #353535;
@@ -445,7 +446,8 @@ header img {
   height: 50px;
   background: linear-gradient(to top, #9356dc -11.44%, #ff79da 123.93%);
   border-radius: 25px;
-  box-shadow: 2px 1px 10px -3px rgba(0, 0, 0, 0.2509803922);
+  border: none;
+  box-shadow: 0.25px 0.25px 10px rgb(255, 255, 255);
   color: #ffffff;
 }
 .resto-main .main-container .Commander-button button:hover {
