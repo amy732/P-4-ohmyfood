@@ -186,6 +186,7 @@ header {
                     background-clip: text;
                     -webkit-background-clip: text;
                     opacity: 0;
+                    transition: all .600s ease-in-out;
                 }
                 &:hover .fas {
                     opacity: 1;

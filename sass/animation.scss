@@ -22,4 +22,14 @@ opacity: 0;
     to{
         transform: rotate(360deg);
     }
+    
+}
+@keyframes displayheart{
+from{
+    opacity: 0;
+}
+to{
+    opacity: 1;
+    
+}
 }

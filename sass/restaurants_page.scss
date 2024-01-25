@@ -59,9 +59,11 @@ header {
                 position: absolute;
                 right: 64px;
                 transform: translateY(-50);
+
                 @media (min-width:769px) {
                     right: 30%;
                 }
+              
             }
             .fas {
                 color: transparent;
@@ -69,9 +71,13 @@ header {
                 background-clip: text;
                 -webkit-background-clip: text;
                 opacity: 0;
+              transition: all .600s ease-in-out;
+               
             }
+
             &:hover .fas {
-                opacity: 1;
+             
+             opacity: 1;
             }
         }
         .resto-container {
