@@ -82,7 +82,13 @@ header {
             @media (min-width: 769px) {
                 width: 80%;}
 
-            h3 {
+            h3 {font-family: Roboto;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: left;
+                
                 &::after {
                     content: "";
                     width: 50px;
@@ -122,6 +128,13 @@ header {
                         margin: 0;
                     }
                     p {
+                        font-family: Roboto;
+                        font-size: 15px;
+                        font-weight: 300;
+                        line-height: 18px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        
                         overflow: hidden;
                         text-overflow: ellipsis;
                         margin: 0;
