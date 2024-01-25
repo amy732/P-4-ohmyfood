@@ -58,7 +58,7 @@ header {
                 font-size: 32px;
                 position: absolute;
                 right: 64px;
-                transform: translateY(-50);
+                transform: translateY(-50%);
 
                 @media (min-width:769px) {
                     right: 30%;
@@ -161,7 +161,7 @@ header {
                         margin-right: -85px;
                         width: 80px;
                         height: 100%;
-                        border-radius: 0px, 15px, 15px, 0px;
+                        border-radius: 0px 15px 15px 0px;
                         transition: 1s;
                         display: flex;
                         background-color: #99e2d0;
