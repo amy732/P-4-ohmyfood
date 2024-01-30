@@ -68,8 +68,22 @@ body .home-main .position {
   padding: 0.5rem;
 }
 body .home-main h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
   padding: 32px 0;
   margin: 0;
+}
+body .home-main p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 body .home-main .headLine {
   display: flex;
@@ -235,7 +249,7 @@ body .home-main .commander-button button {
   background-image: linear-gradient(to top, #9356dc -11.44%, #ff79da 123.93%);
   border-radius: 25px;
   border: none;
-  box-shadow: 0.25px 0.25px 10px rgb(255, 255, 255);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   color: #ffffff;
 }
 body .home-main .commander-button button:hover {
@@ -471,7 +485,7 @@ header img {
   background: linear-gradient(to top, #9356dc -11.44%, #ff79da 123.93%);
   border-radius: 25px;
   border: none;
-  box-shadow: 0.25px 0.25px 10px rgb(255, 255, 255);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   color: #ffffff;
 }
 .resto-main .main-container .Commander-button button:hover {
