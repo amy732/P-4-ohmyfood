@@ -55,7 +55,7 @@ body {
             font-weight: 300;
             line-height: 21px;
             letter-spacing: 0em;
-            text-align: center;
+            text-align: left;
         }
         .headLine {
             display: flex;
@@ -178,7 +178,8 @@ body {
                         font-weight: 700;
                         line-height: 21px;
                         letter-spacing: 0em;
-                        text-align: left;                    }
+                        text-align: left;
+                    }
                     .fa-heart {
                         font-size: 32px;
                         position: absolute;

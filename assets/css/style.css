@@ -83,7 +83,7 @@ body .home-main p {
   font-weight: 300;
   line-height: 21px;
   letter-spacing: 0em;
-  text-align: center;
+  text-align: left;
 }
 body .home-main .headLine {
   display: flex;
